@@ -1,0 +1,15 @@
+/dts-v1/;
+/plugin/;
+/ {
+    compatible = "brcm,bcm2712";
+    fragment@0 {
+        target = <&gpio>;
+        __overlay__ {
+            led_gpio: led_gpio {
+                brcm,pins = <21>;
+                brcm,function = <1>; // Output
+                brcm,pull = <2>; // Pull-up
+            };
+        };
+    };
+};
