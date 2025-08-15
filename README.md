@@ -1,6 +1,6 @@
 # Raspberry Pi GPIO Driver
 
-This repository contains a Linux kernel module for controlling GPIO pins on Raspberry Pi 3, 4, and 5, including support for the Pi 5’s RP1 chip. It accompanies the article [How to Write a Raspberry Pi GPIO Driver: Ultimate Guide for Pi 3/4/5](https://giraffai.com/raspberry-pi-gpio-driver), which provides a step-by-step guide with debugging tips and device tree setup.
+This repository contains a Linux kernel module for controlling GPIO pins on Raspberry Pi 3, 4, and 5, including support for the Pi 5’s RP1 chip. It accompanies the article [How to Write a Raspberry Pi GPIO Driver: Ultimate Guide for Pi 3/4/5](https://www.giraffai.com/raspberry-pi/raspberry-pi-gpio-driver), which provides a step-by-step guide with debugging tips and device tree setup.
 
 ## Features
 - Controls GPIO 21 (LED example) using the `gpiod` API.
